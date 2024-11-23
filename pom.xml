@@ -51,6 +51,12 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+        <!-- Added Azure Storage Blob dependency -->
+        <dependency>
+            <groupId>com.azure</groupId>
+            <artifactId>azure-storage-blob</artifactId>
+            <version>12.14.0</version>
+        </dependency>
     </dependencies>
 
     <build>
